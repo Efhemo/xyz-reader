@@ -18,6 +18,7 @@
 
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:scaleType="centerCrop"
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -44,7 +45,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="@color/secondary_text"
+            android:textColor="?android:attr/textColorSecondary"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>
