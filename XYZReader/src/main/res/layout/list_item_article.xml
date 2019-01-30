@@ -8,7 +8,7 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
-    app:cardElevation="4dp"
+    app:cardElevation="@dimen/card_elevation"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
